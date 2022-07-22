@@ -64,4 +64,5 @@ public class AppTest
         List<Character> testList = DuplicateCharacters.stringToListOfDupes("helo");
         assertThat(testList, IsEmptyCollection.empty());
     }
+
 }

@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.stringnumbermaths.DuplicateCharacters;
-import org.example.stringnumbermaths.DuplicateCharactersFunc;
-import org.example.stringnumbermaths.FirstNonRepeatingCharacter;
-import org.example.stringnumbermaths.FirstNonRepeatingCharacterFunc;
+import org.example.stringnumbermaths.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -20,6 +17,8 @@ public class App
 //        List<Character> result = DuplicateCharacters.stringToListOfDupes("Hello");
 //        List<Character> result = DuplicateCharactersFunc.stringToListOfDupes("Hello");
 //        System.out.println(FirstNonRepeatingCharacter.firstNonRepeatingChar(""));
-        System.out.println(FirstNonRepeatingCharacterFunc.firstNonRepeatingChar("helloh"));
+//        System.out.println(FirstNonRepeatingCharacterFunc.firstNonRepeatingChar("helloh"));
+//        System.out.println(ReverseLettersOfWord.reverseLettersOfAWord("Goodbye Cruel World"));
+        System.out.println(ReverseLettersOfWordAndWordOrder.reverseWordOrder("Goodbye Cruel World"));
     }
 }
