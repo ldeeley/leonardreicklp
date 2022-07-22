@@ -12,10 +12,13 @@ public class DuplicateCharacters {
         Map<Character,Integer> result = new HashMap<>();
         for (int i=0; i<string.length();i++){
             Character key = string.charAt(i);
-            if (result.containsKey(key)){
-                result.put(key,result.get(key)+1);
-            } else
-                result.put(key,1);
+//recommended
+            result.compute(key,(k,v)-> (v==null)? 1 : ++v);
+// my solution
+//            if (result.containsKey(key)){
+//                result.put(key,result.get(key)+1);
+//            } else
+//                result.put(key,1);
         }
 
         return result.entrySet()
