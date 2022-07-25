@@ -19,6 +19,7 @@ public class App
 //        System.out.println(FirstNonRepeatingCharacter.firstNonRepeatingChar(""));
 //        System.out.println(FirstNonRepeatingCharacterFunc.firstNonRepeatingChar("helloh"));
 //        System.out.println(ReverseLettersOfWord.reverseLettersOfAWord("Goodbye Cruel World"));
-        System.out.println(ReverseLettersOfWordAndWordOrder.reverseWordOrder("Goodbye Cruel World"));
+//        System.out.println(ReverseLettersOfWordAndWordOrder.reverseWordOrder("Goodbye Cruel World"));
+        System.out.println(CheckPalindrome.checkPalindrome("HellolleH"));
     }
 }
