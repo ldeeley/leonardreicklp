@@ -20,6 +20,9 @@ public class App
 //        System.out.println(FirstNonRepeatingCharacterFunc.firstNonRepeatingChar("helloh"));
 //        System.out.println(ReverseLettersOfWord.reverseLettersOfAWord("Goodbye Cruel World"));
 //        System.out.println(ReverseLettersOfWordAndWordOrder.reverseWordOrder("Goodbye Cruel World"));
-        System.out.println(CheckPalindrome.checkPalindrome("HellolleH"));
+//        System.out.println(CheckPalindrome.checkPalindrome("HellolleH"));
+
+        System.out.println(FindCharacterMostAppearances.findCharacterMostAppearances("hellllowhats goingon www"));
+
     }
 }
